@@ -26,7 +26,7 @@ onUnmounted(() => {
       'bg-transparent text-white': !isScrolled,
       'bg-white text-gray-800 shadow-lg': isScrolled,
     }"
-    class="fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out"
+    class="fixed top-0 left-0 w-full z-40 transition-all duration-300 ease-in-out"
   >
     <nav class="container mx-auto p-4 flex justify-between items-center">
       <a href="#" class="text-2xl font-bold flex items-center space-x-2">
