@@ -41,7 +41,7 @@ const services = shallowRef([
 </script>
 
 <template>
-  <section class="bg-slate-50 py-20">
+  <section class="bg-white py-20">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Layanan Kami</h2>

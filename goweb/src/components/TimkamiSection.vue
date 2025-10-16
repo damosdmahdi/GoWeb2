@@ -1,6 +1,9 @@
 <script setup>
 import { ref } from 'vue'
 import DetailTimModal from './DetailtimSection.vue'
+// import { onMounted } from 'vue'
+// import { tsParticles } from '@tsparticles/engine'
+// import { loadSlim } from '@tsparticles/slim'
 
 const isModalOpen = ref(false)
 const selectedMember = ref(null)
@@ -82,8 +85,10 @@ function closeModal() {
 </script>
 
 <template>
-  <section class="bg-slate-50 py-20">
-    <div class="container mx-auto px-4">
+  <section class="bg-[#F8F9FA] py-20 relative overflow-hidden">
+    <div id="tsparticles" class="absolute inset-0 z-0"></div>
+
+    <div class="container mx-auto px-4 relative z-10">
       <div class="text-center mb-12">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Tim Kami</h2>
         <p class="text-lg text-gray-600 max-w-2xl mx-auto mt-4">
